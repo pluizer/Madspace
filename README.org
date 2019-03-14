@@ -1,0 +1,22 @@
+* Commands
+
+#+BEGIN_SRC
+>[NAME] sets the variable to write to
+[VALUE] writes a value to name
+<[NAME] returns value of name
+#+END_SRC
+
+* Example
+
+#+BEGIN_SRC
+>light
+12
+49
+12
+>switch
+0
+<switch ; returns 0
+<light  ; returns 12
+#+END_SRC
+
+
